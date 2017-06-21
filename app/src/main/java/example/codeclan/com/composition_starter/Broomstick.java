@@ -1,6 +1,7 @@
 package example.codeclan.com.composition_starter;
+import behaviours.Flyable;
 
-public class Broomstick extends CleaningImplement {
+public class Broomstick extends CleaningImplement implements Flyable {
 
   int speed;
 

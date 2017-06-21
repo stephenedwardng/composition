@@ -1,6 +1,7 @@
 package example.codeclan.com.composition_starter;
+import behaviours.Flyable;
 
-public class MagicCarpet extends Carpet {
+public class MagicCarpet extends Carpet implements Flyable {
 
   public MagicCarpet(String colour){
     super(colour);
